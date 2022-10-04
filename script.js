@@ -121,7 +121,11 @@ function showimage(){
         });
     }
     );
+    // After some time if flag is still 0 then show alert
+    setTimeout(function(){
+        
     if(flag == 0){
         alert("File not found Check the Unique ID");
     }
+    }, 5000);
 }
