@@ -1,4 +1,4 @@
-# [Any Share](https://anyshare.vercel.app)
+<center><a href="https://anyshare.vercel.app"><h1>Any Share</a></h1></center>
 
 Any Share is a simple, lightweight, and fast file sharing service. It is written in Javascript and uses the [Firebase](https://firebase.google.com/) platform.
 
