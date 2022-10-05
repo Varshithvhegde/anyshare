@@ -27,7 +27,14 @@
     background-color: #e66a6c;
   }
   h1 {
-    animation: flicker 1.5s infinite alternate;
+    /* animation: flicker 1.5s infinite alternate; */
+    color:rgb(0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
   }
 
   @keyframes flicker {
@@ -133,6 +140,7 @@ h2{
     border-radius: 10px;
     padding: 10px 20px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 p{
@@ -172,4 +180,16 @@ p{
     text-align: center;
    
     
+}
+#footer{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #212529;
+    /* background-color: #ceff89; */
+    border-color: #212529;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
 }
