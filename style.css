@@ -124,9 +124,9 @@ button{
     transition: 0.5s;
 }
 
-h3{
+h2{
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #212529;
     background-color: #ceff89;
     border-color: #212529;
@@ -135,22 +135,22 @@ h3{
     text-align: center;
 }
 
-label{
+p{
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #212529;
     
     border-color: #212529;
     border-radius: 10px;
     padding: 10px 20px;
     text-align: center;
-    margin-left: -60px;
+    
     font-weight: 700;
 }
 #showunique{
-    width: 170px;
+    width: 200px;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     color: #212529;
     background-color: #ceff89;
     border-color: #212529;
@@ -169,4 +169,7 @@ label{
 #ShowUniqueID{
     width:max-content;
     margin-top: 10px;
+    text-align: center;
+   
+    
 }

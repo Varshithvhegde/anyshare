@@ -53,6 +53,9 @@ else{
 function saveMessage(downloadURL) {
     var newMessageRef = messagesRef.push();
     var unique= createUniquenumber();
+    // Hidding recive file div
+    var x = document.getElementById("downloadiv");
+    x.style.display = "none";
     var showUnique = document.getElementById("ShowUniqueID");
     var shU=document.getElementById("showunique");
     shU.value=unique;
