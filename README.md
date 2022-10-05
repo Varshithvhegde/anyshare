@@ -23,6 +23,7 @@ Any Share is a simple, lightweight, and fast file sharing service. It is written
 - This way the file is shared securely.
 
 ## How to use
+![frame_generic_dark (12)](https://user-images.githubusercontent.com/80502833/193975789-641c7b56-d7b6-474a-9082-b52335d21c22.png)
 
 - Visit [Any Share](https://anyshare.vercel.app/).
 - Upload a file.
