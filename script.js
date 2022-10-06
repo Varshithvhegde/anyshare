@@ -132,3 +132,13 @@ function showimage(){
     // }
     // }, 5000);
 }
+
+function flesize(){
+  var file = document.getElementById("file").files[0];
+  // Dont allow file size greater than 25MB
+  if(file.size > 25000000){
+      alert("File size is greater than 25MB");
+      document.getElementById("file").value = "";
+  }
+  
+}
