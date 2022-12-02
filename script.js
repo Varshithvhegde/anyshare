@@ -142,3 +142,13 @@ function flesize(){
   }
   
 }
+
+// Click on download button when enter is pressed
+document.getElementById("unique")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("show").click();
+    }
+});
+
