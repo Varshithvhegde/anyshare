@@ -119,6 +119,7 @@ button{
     border: 2px solid #fff;
     cursor: pointer;
     transition: 0.5s;
+    -webkit-user-drag: none;
 }
 #uping{
     background-color: #fff;
@@ -129,6 +130,10 @@ button{
     border: 0px solid #fff;
     cursor: pointer;
     transition: 0.5s;
+    /* avoid image draggable or selectable */
+    -webkit-user-drag: none;
+    user-select: none;
+
 }
 
 h2{
