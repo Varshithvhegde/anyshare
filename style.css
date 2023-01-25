@@ -189,7 +189,20 @@ p{
     /* background-color: #ceff89; */
     border-color: #212529;
     border-radius: 10px;
-    padding: 10px 20px;
+    /* padding: 5px 20px; */
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 10px; */
+}
+
+#note{
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    color: #212529;
+    /* background-color: #ceff89; */
+    border-color: #212529;
+    border-radius: 10px;
+    /* padding: 10px 20px; */
+    text-align: center;
+    /* margin-top: 20px; */
+  
 }

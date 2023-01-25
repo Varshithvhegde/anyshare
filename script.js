@@ -135,10 +135,10 @@ function showimage(){
 
 function flesize(){
   var file = document.getElementById("file").files[0];
-  // Dont allow file size greater than 25MB
-  if(file.size > 25000000){
-      alert("File size is greater than 25MB");
-      document.getElementById("file").value = "";
+  // Dont allow file size greater than 100MB
+  if(file.size > 100000000){
+    alert("File size is greater than 100MB\n Please select a file less than 100MB");
+    document.getElementById("file").value = "";
   }
   
 }
