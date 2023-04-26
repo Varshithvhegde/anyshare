@@ -1,0 +1,11 @@
+{
+    "name": "Anyshare File Sharing",
+    "version": "1.0.0",
+    "description": "Share files with anyone, anywhere, anytime.",
+    "manifest_version": 3,
+    "author": "Varshith V Hegde",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Anyshare"
+    }
+}
