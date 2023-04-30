@@ -1,11 +1,12 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBPlnG8AQWAQS5O0TFFnIHyw2DfiNqAHfM",
-  authDomain: "image-share-4446c.firebaseapp.com",
-  projectId: "image-share-4446c",
-  storageBucket: "image-share-4446c.appspot.com",
-  messagingSenderId: "424462799129",
-  appId: "1:424462799129:web:33b634c2a607aa72cb3588",
-  measurementId: "G-31PPT6CB61",
+// Add your firebase config here
+apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+storageBucket: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+messagingSenderId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+appId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+measurementId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 };
 
 // Initialize Firebase
