@@ -26,8 +26,9 @@ function uploadImage() {
     uploadTask.on(
       "state_changed",
       function (snapshot) {
-        var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+        var progress = (snapshot.bytesTransferred / snapshot.totalBytes * 100).toFixed(2);
         console.log("Upload is " + progress + "% done");
+        document.getElementById("upload").innerHTML = "Uploading"+" "+progress+"%...";
       },
       function (error) {
         console.log(error.message);
